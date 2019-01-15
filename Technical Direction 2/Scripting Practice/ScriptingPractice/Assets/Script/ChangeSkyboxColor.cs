@@ -13,4 +13,9 @@ public class ChangeSkyboxColor : MonoBehaviour
 
 	    RenderSettings.skybox.SetColor("_Tint", SkyboxColor);
 	}
+	
+	public void ResetSkybox()
+	{
+		RenderSettings.skybox.SetColor("_Tint", Color.grey);
+	}
 }
