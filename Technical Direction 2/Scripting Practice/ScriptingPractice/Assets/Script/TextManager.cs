@@ -15,5 +15,12 @@ public class TextManager : MonoBehaviour {
   {
     sentences = new Queue<string>();
   }
+  
+  public void StartConvo (TextArea dialogue)
+  {
+    //Test this at the school to be sure everything works properly.
+    //Later you can add it to an event so it'll trigger. 
+    Debug.Log("Starting conversation with " + dialogue.npcName);
+  }
 
 }
