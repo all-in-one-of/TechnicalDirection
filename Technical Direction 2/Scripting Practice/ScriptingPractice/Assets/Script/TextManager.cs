@@ -16,7 +16,11 @@ public class TextManager : MonoBehaviour {
   public Text nameText; //npcName
   public Text messageText; //message of the NPC
   
-  //Once you get this basic down, you'll then add an animator to make the dialogue box move. 
+  //Public Animator
+  public Animator animate;
+  
+  //Bool if the dialogue is moving
+  public bool textGoing = false; 
     
   void Start() 
   {
@@ -26,6 +30,8 @@ public class TextManager : MonoBehaviour {
   //TThis function should be placed on a button event, where when the button is pressed, dialogue will begin. 
   public void StartConvo (TextArea dialogue)
   {
+    animate.SetBool("IsOpen", true);
+    
     //Test this at the school to be sure everything works properly.
     //Later you can add it to an event so it'll trigger. 
     Debug.Log("Starting conversation with " + dialogue.npcName);
@@ -37,7 +43,7 @@ public class TextManager : MonoBehaviour {
     sentences.Clear();
     
     //Go through each sentence in your array
-    foreach (string sentence in dialogue.sentences)
+    foreach (string sentence in dialogue.lines)
     {
       //Queue up a sentence the loop is currently looking at.
       sentences.Enqueue(sentence);
@@ -49,6 +55,7 @@ public class TextManager : MonoBehaviour {
   //The DisplayNextMessage should be placed on the button that will continue an NPC's message
   public void DisplayNextMessage()
   {
+    
     //First, check if there are more sentences in the queue
     //If the number of sentences left in the queue is 0, then the dialogue will end. 
     if (sentences.Count == 0)
@@ -56,13 +63,7 @@ public class TextManager : MonoBehaviour {
       EndDialogue();
       //Placing return here will allow you to exit out of the entire function. 
       return;
-    } 
-    //If there are still sentences left, this will get the next sentence in the Queue
-    //Store the next sentence in a string variable
-    string sentence = sentences.Dequeue();
-    
-    //This next part will change the text in the game to the string variable we just made
-    messageText.text = sentence;
+    }
     
     //IF YOU WANT THE DIALOUGE TO MOVE, you'll need to add a Coroutine
    /*
@@ -81,11 +82,50 @@ public class TextManager : MonoBehaviour {
    }
    
    */
+    if (textGoing == false)
+    {
+      //If there are still sentences left, this will get the next sentence in the Queue
+      //Store the next sentence in a string variable
+      string sentence = sentences.Dequeue();
+    
+      //This next part will change the text in the game to the string variable we just made
+      messageText.text = sentence;
+      //This will start the moving sentence function.
+      StartCoroutine(TypeSentence(sentence));
+    }else if (textGoing == true)
+    {
+      //StopAllCoroutines will stop any coroutine that is active, preventing overlap.
+      StopAllCoroutines();
+      textGoing = false;
+    } 
+    
+    
+  }
+  
+  IEnumerator TypeSentence (string sentence)
+  {
+    //This will start the message as Empty. 
+    messageText.text = "";
+    //For each letter/character in the array, it will add that to the message that will be displayed.  
+    foreach (char letter in sentence.ToCharArray())
+    {
+      messageText.text += letter;
+      //Create a bool that will indicate when the coroutine is active. This will be used later when the dialogue is running.
+      textGoing = true;
+      
+      //Change text speed by:
+      //yield return new WaitForSeconds(0.1f);
+      yield return null;
+      
+    }
+
+    textGoing = false;
   }
   
   //Function that will stop the dialogue all together
   void EndDialogue()
   {
+    animate.SetBool("IsOpen", false);
     Debug.Log("End of conversation.");
   }
 }

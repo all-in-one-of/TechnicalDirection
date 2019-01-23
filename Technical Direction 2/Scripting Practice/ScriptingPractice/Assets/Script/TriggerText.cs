@@ -15,5 +15,6 @@ public class TriggerText : MonoBehaviour {
     //Regardless, this will find out TextManager.CS file, find the StartConvo Function, and pass in the 
       //variable we made here, dialogue, to it.
     FindObjectOfType<TextManager>().StartConvo(dialogue);
+    //The TextManager Script needs to be on an object to be accessed. 
   }
 }

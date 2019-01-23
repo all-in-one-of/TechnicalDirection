@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.IO;  //System.IO is what you want to use if you want to work with files on an operating system.
-using System.Runtime.Serialization.Formatters.Binary;   //This will let you access the Binary Formatter to make abinary save file
+using System.Runtime.Serialization.Formatters.Binary;   //This will let you access the Binary Formatter to make a binary save file
 
 //This script is used to help make a Saving System. 
 
@@ -11,9 +11,9 @@ public static class SaveSystem {
   public static void SavePlayer(Player player)
   {
     //Create a binary formatter that you can use. 
-    BinaryFormmater formatter = new BinaryFormatter();
+    BinaryFormatter formatter = new BinaryFormatter();
     //state where the file should be saved.
-    string path = Application.persistandDataPath + "/player.fun";  //This will get a path on the data directory that won't suddenly change.
+    string path = Application.persistentDataPath + "/player.fun";  //This will get a path on the data directory that won't suddenly change.
     
     //FileStream is a stream of data contained in a file. You can use a particular FileStream to read and write a file.
     FileStream stream = new FileStream(path, FileMode.Create);
@@ -25,14 +25,14 @@ public static class SaveSystem {
     //Serialize means you're going to write data to the file. 
     formatter.Serialize(stream, data);
     
-    //When you're done writting data to the file, you'll want to close it.
+    //When you're done writing data to the file, you'll want to close it.
     stream.Close();
   }
   
   //This will load the data
   public static PlayerData LoadPlayer()
   {
-    string path = Application.persistandDataPath + "/player.fun";
+    string path = Application.persistentDataPath + "/player.fun";
     
     if (File.Exists(path))
     {
