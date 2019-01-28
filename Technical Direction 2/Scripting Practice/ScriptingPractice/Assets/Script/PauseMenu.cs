@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEnginge.SceneManagement;
+using UnityEngine.SceneManagement;
 //The SceneManagement helps you access other scenes in the project.
 
-//Brackeys tutorial on Pause Menus give a good tutorial on how to make UI seem pleasant in Unity
+//Brackeys tutorial on Pause Menus give a good tutorial on how to make UI aesthetically pleasing in Unity
 
 public class PauseMenu : MonoBehaviour {
   
@@ -16,7 +16,7 @@ public class PauseMenu : MonoBehaviour {
   
   void Update ()
   { 
-    // if the escape key was presed
+    // if the escape key was pressed
     if (Input.GetKeyDown(KeyCode.Escape))
     {
       // if GameIsPaused is active/true, the game should resume again if the escape key was pressed
@@ -31,7 +31,7 @@ public class PauseMenu : MonoBehaviour {
   }
  
  //Method where the game will resume after being run
- void Resume()
+ public void Resume()
  {
     //If the game was already paused, then this will deactivate the pause menu
     pauseMenuUI.SetActive(false);
@@ -70,7 +70,7 @@ public class PauseMenu : MonoBehaviour {
  //When run, the game will quit.
  public void QuitGame()
  {
-    Debug.Log("Quitting game...")
+    Debug.Log("Quitting game...");
     Application.Quit();
  }
  
