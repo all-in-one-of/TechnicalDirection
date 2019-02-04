@@ -1,0 +1,68 @@
+The Start method inUnity can be a coroutine.
+
+IEnumerator Start()
+{
+
+}
+
+You can run a coroutine without calling it out right off the bat. 
+
+IEnumerator Start()
+{
+	yield return new WaitForSeconds(2);
+}
+
+If you return a new WaitforSeconds (it waits for those seconds and then does the work), 
+WaitForSeconds will create a new object, and wil creat a new one every time.
+It could literally make thousands. It is like garbage collection.
+We need another object in it's path.
+You can use a scripatble object or a... struct?
+
+(look into that later)
+
+
+On the new script
+
+using ... (all that stuff)
+
+[CreateAssetMenu()]
+public class WaitObj : ScriptableObject
+{
+	public float Seconds = 2;
+	[HideInInspector]	//This will hide whatever is on the next line, preventing users from seeing but letting other scripts see it.
+	public WaitForSeconds Wait;
+
+	//make a new version of the Wait object
+	
+	public void UpdateWait()
+	{
+		Wait = new WaitForSeconds(Seconds);
+	}
+}
+
+You can call this script in the other, original script. 
+Public Object WillWait;
+
+The object needs to be casted.
+in the IEnumerator Start:
+
+var newWaitObj = Will Wait in WaitObj;
+newWaitObject.UpdateWait();
+
+
+Io the yield line place you do
+
+yield return newWaitObj.Wait;
+
+
+
+---
+
+If you make a public Unity Event at the befinning of the Monobehavior scrip
+
+public Unity Even OnWait;
+//That is waht you put as a public var
+
+//In the while loop
+
+OnWait.Invoke();
