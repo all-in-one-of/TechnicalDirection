@@ -57,11 +57,11 @@ public class PauseMenu : MonoBehaviour {
  public void LoadMenu()
  {
     Debug.Log("Loading menu...");
-    //Time.timeScale = 1f;
+    Time.timeScale = 1f;
     //This should be put in once the main menu is in place, because it will resume time in the rest of the game.
     //After all, the game WAS paused, but now we don't want everything to be paused. 
     
-    //SceneManager.LoadScene("Menu");
+     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     //The tutorial suggests you don't hard code this, but instead create a variable for it.
     //Whatever is in Quotes is the name of the scene, so be sure it's accurate.
     //Also, be sure that the Scene you want to access is added into the build settings in "Scenes in Build"

@@ -54,7 +54,7 @@ public class SettingsMenu : MonoBehaviour {
     // Adding variables in the options list into the menu
     resolutionDropdown.AddOptions(options);
     //Changing the Resolution Value
-    resolutionDropDown.value = currentResolutionIndex;
+    resolutionDropdown.value = currentResolutionIndex;
     resolutionDropdown.RefreshShownValue();
   }
 
@@ -63,7 +63,7 @@ public class SettingsMenu : MonoBehaviour {
   public void SetVolume(float volume)
   {
     //Displaying the current variable of the volume
-    Debug.Log(volume);
+    //Debug.Log(volume);
     
     //Add an AudioMixer to the game 
     //It will show different layers ofvolume fo the game.
@@ -74,7 +74,7 @@ public class SettingsMenu : MonoBehaviour {
     //Reference the audio mixer
     audioMixer.SetFloat("volume", volume); 
     // THIS IS REFERENCING THE 'volume' IN THE ACTUAL AUDIOMIXER. 
-    //Make sure when ereferencing the name in the parenthesis is the same as the one you gave in the Audio Mixer
+    //Make sure when referencing the name in the parenthesis is the same as the one you gave in the Audio Mixer
     // The second volume in that line of code is the value you want to set the volume to, which we got in the SetVolume Function
   }
   
@@ -82,7 +82,7 @@ public class SettingsMenu : MonoBehaviour {
   //Just be sure they match with the graphic settings in Unity. 
   //In the Quality Settings in Unity, you can see what quality levels are there.
   //The 'int' is going to be the index of the element we chose. Low will be 0, for example
-  public void SetQUality(int qualityIndex)
+  public void SetQuality(int qualityIndex)
   {
     //Access the QualitySettings. The qualityIndex will take in the values of the drop down menu already.
     //If that's the case, it seems important to ahve the first dropdown be Low, then Medium, then High, similar to how it is in Unity
@@ -109,6 +109,7 @@ public class SettingsMenu : MonoBehaviour {
     // Find out what resolution was selected.
     // Get the width and the height from the resolution array
     Resolution resolution = resolutions[resolutionIndex];
-    Screen.SetResolultion(resolution.width, resolution.height, Screen.fullScreen);
+    Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
+    Debug.Log("Resolution is " + resolution.width + "x" + resolution.height);
   }
 }

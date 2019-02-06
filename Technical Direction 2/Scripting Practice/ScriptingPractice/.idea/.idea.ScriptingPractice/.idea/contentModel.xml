@@ -11,11 +11,13 @@
         <e p="Script" t="Include">
           <e p="CameraZoom.cs" t="Include" />
           <e p="ChangeSkyboxColor.cs" t="Include" />
+          <e p="MainMenu.cs" t="Include" />
           <e p="PauseMenu.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="PlayerData.cs" t="Include" />
           <e p="RotateSkybox.cs" t="Include" />
           <e p="SaveSystem.cs" t="Include" />
+          <e p="SettingsMenu.cs" t="Include" />
           <e p="TextArea.cs" t="Include" />
           <e p="TextManager.cs" t="Include" />
           <e p="TriggerText.cs" t="Include" />

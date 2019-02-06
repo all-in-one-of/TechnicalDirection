@@ -12,31 +12,31 @@
     <session id="735707617">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1157" />
+          <entry key="cs" value="1261" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1157" />
+          <entry key="C#" value="1261" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="7" />
+          <entry key="cs" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="7" />
+          <entry key="C#" value="9" />
         </counts>
       </usages-collector>
     </session>
@@ -44,44 +44,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/TextArea.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/SettingsMenu.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="1680">
+              <caret line="112" column="32" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
               <folding>
-                <marker date="1548281149604" expanded="true" signature="6:78" ph="..." />
-                <marker date="1548281149604" expanded="true" signature="102:409" ph="/* This lets you embed a class with sub properties in the inspector. ... */" />
-                <marker date="1548281149604" expanded="true" signature="433:758" ph="{...}" />
-                <marker date="1548281149604" expanded="true" signature="516:656" ph="/* Defines how big the text area can be for the dialogue. ... */" />
+                <marker date="1549486250586" expanded="true" signature="6:172" ph="..." />
+                <marker date="1549486250586" expanded="true" signature="174:451" ph="/* This is based on the Tutorial you watched from Brackeys, where he made an Option/Settings Menu ... */" />
+                <marker date="1549486250586" expanded="true" signature="494:5262" ph="{...}" />
+                <marker date="1549486250586" expanded="true" signature="703:2425" ph="{...}" />
+                <marker date="1549486250586" expanded="true" signature="712:872" ph="/* In this method, gather information about what resolutions can be used at our disposal. ... */" />
+                <marker date="1549486250586" expanded="true" signature="1056:1180" ph="/* You'll need to turn the resolutions array into formatted strings ... */" />
+                <marker date="1549486250586" expanded="true" signature="1376:2179" ph="{...}" />
+                <marker date="1549486250586" expanded="true" signature="1389:1525" ph="/* Width x Height ... */" />
+                <marker date="1549486250586" expanded="true" signature="1705:2031" ph="/* if the current resolution is the same one as the resolution the user is using, then set it. ... */" />
+                <marker date="1549486250586" expanded="true" signature="2121:2173" ph="{...}" />
+                <marker date="1549486250586" expanded="true" signature="2429:2642" ph="/* Creating a method to affect the volume. The value that is taken in is based on the value of the slider ... */" />
+                <marker date="1549486250586" expanded="true" signature="2680:3484" ph="{...}" />
+                <marker date="1549486250586" expanded="true" signature="2689:3128" ph="/* Displaying the current variable of the volume ... */" />
+                <marker date="1549486250586" expanded="true" signature="3177:3480" ph="/* THIS IS REFERENCING THE 'volume' IN THE ACTUAL AUDIOMIXER. ... */" />
+                <marker date="1549486250586" expanded="true" signature="3490:3778" ph="/* The Next part relates to the quality of the game. ... */" />
+                <marker date="1549486250586" expanded="true" signature="3821:4120" ph="{...}" />
+                <marker date="1549486250586" expanded="true" signature="3830:4065" ph="/* Access the QualitySettings. The qualityIndex will take in the values of the drop down menu already. ... */" />
+                <marker date="1549486250586" expanded="true" signature="4126:4227" ph="/* Full Screen toggle ... */" />
+                <marker date="1549486250586" expanded="true" signature="4275:4536" ph="{...}" />
+                <marker date="1549486250586" expanded="true" signature="4542:4876" ph="/* Resolution ... */" />
+                <marker date="1549486250586" expanded="true" signature="4926:5260" ph="{...}" />
+                <marker date="1549486250586" expanded="true" signature="4935:5038" ph="/* Find out what resolution was selected. ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/TextManager.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/MainMenu.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="98" column="24" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
+            <state relative-caret-position="165">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="73" />
               <folding>
-                <marker date="1548283181787" expanded="false" signature="6:100" ph="..." />
-                <marker date="1548283181787" expanded="true" signature="143:4171" ph="{...}" />
-                <marker date="1548283181787" expanded="true" signature="256:651" ph="/* 'Queue' will need 'using System.Collections;' to work properly ... */" />
-                <marker date="1548283181787" expanded="true" signature="876:921" ph="{...}" />
-                <marker date="1548283181787" expanded="true" signature="1080:1865" ph="{...}" />
-                <marker date="1548283181787" expanded="true" signature="1131:1252" ph="/* Test this at the school to be sure everything works properly. ... */" />
-                <marker date="1548283181787" expanded="true" signature="1665:1774" ph="{...}" />
-                <marker date="1548283181787" expanded="true" signature="1997:3387" ph="{...}" />
-                <marker date="1548283181787" expanded="true" signature="2011:2152" ph="/* First, check if there are more sentences in the queue ... */" />
-                <marker date="1548283181787" expanded="true" signature="2182:2309" ph="{...}" />
-                <marker date="1548283181787" expanded="true" signature="2389:2737" ph="/* StopAllCoroutines(); ... */" />
-                <marker date="1548283181787" expanded="true" signature="2765:3195" ph="{...}" />
-                <marker date="1548283181787" expanded="true" signature="2778:2912" ph="/* If there are still sentences left, this will get the next sentence in the Queue ... */" />
-                <marker date="1548283181787" expanded="true" signature="3222:3372" ph="{...}" />
-                <marker date="1548283181787" expanded="true" signature="3435:4006" ph="{...}" />
-                <marker date="1548283181787" expanded="true" signature="3667:3978" ph="{...}" />
-                <marker date="1548283181787" expanded="true" signature="3870:3940" ph="/* Change text speed by: ... */" />
-                <marker date="1548283181787" expanded="true" signature="4084:4169" ph="{...}" />
+                <marker date="1549481111056" expanded="false" signature="6:113" ph="..." />
+                <marker date="1549481111056" expanded="true" signature="115:269" ph="/* lets you manage scenes for your build ... */" />
+                <marker date="1549481111056" expanded="true" signature="309:945" ph="{...}" />
+                <marker date="1549481111056" expanded="true" signature="374:640" ph="{...}" />
+                <marker date="1549481111056" expanded="true" signature="668:831" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -90,90 +95,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Script/PauseMenu.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="777">
-              <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+            <state relative-caret-position="585">
+              <caret line="63" column="70" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
               <folding>
-                <marker date="1548705037998" expanded="true" signature="6:113" ph="..." />
-                <marker date="1548705037998" expanded="true" signature="114:288" ph="/* The SceneManagement helps you access other scenes in the project. ... */" />
-                <marker date="1548705037998" expanded="true" signature="329:2537" ph="{...}" />
-                <marker date="1548705037998" expanded="true" signature="534:929" ph="{...}" />
-                <marker date="1548705037998" expanded="true" signature="618:925" ph="{...}" />
-                <marker date="1548705037998" expanded="true" signature="748:782" ph="{...}" />
-                <marker date="1548705037998" expanded="true" signature="886:919" ph="{...}" />
-                <marker date="1548705037998" expanded="true" signature="1006:1241" ph="{...}" />
-                <marker date="1548705037998" expanded="true" signature="1317:1634" ph="{...}" />
-                <marker date="1548705037998" expanded="true" signature="1458:1581" ph="/* This next part will freeze time in the game so nothing will happen. ... */" />
-                <marker date="1548705037998" expanded="true" signature="1639:1794" ph="/* This Load Menu function was made so the game can go back to the main menu if selected. You can implement this  ... */" />
-                <marker date="1548705037998" expanded="true" signature="1820:2409" ph="{...}" />
-                <marker date="1548705037998" expanded="true" signature="1862:2406" ph="/* Time.timeScale = 1f; ... */" />
-                <marker date="1548705037998" expanded="true" signature="2468:2533" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/TriggerText.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="17" column="70" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
-              <folding>
-                <marker date="1548274390200" expanded="false" signature="6:78" ph="..." />
-                <marker date="1548274390200" expanded="true" signature="192:797" ph="{...}" />
-                <marker date="1548274390200" expanded="true" signature="411:795" ph="{...}" />
-                <marker date="1548274390200" expanded="true" signature="420:662" ph="/* I know there is a better method to use other than FindObjectOfType... Maybe ask Romrell ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/SaveSystem.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-              <folding>
-                <marker date="1548278665766" expanded="true" signature="6:181" ph="..." />
-                <marker date="1548278665766" expanded="true" signature="184:439" ph="/* This will let you access the Binary Formatter to make a binary save file ... */" />
-                <marker date="1548278665766" expanded="true" signature="471:2490" ph="{...}" />
-                <marker date="1548278665766" expanded="true" signature="520:1437" ph="{...}" />
-                <marker date="1548278665766" expanded="true" signature="1007:1181" ph="/* FileMode. will help determine if you want to open a file, create a file, or append to an already existing file ... */" />
-                <marker date="1548278665766" expanded="true" signature="1508:2485" ph="{...}" />
-                <marker date="1548278665766" expanded="true" signature="1610:2333" ph="{...}" />
-                <marker date="1548278665766" expanded="true" signature="1815:2166" ph="/* FileMode.Open should open the file ... */" />
-                <marker date="1548278665766" expanded="true" signature="2338:2481" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/PlayerData.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-              <folding>
-                <marker date="1548271977255" expanded="true" signature="6:78" ph="..." />
-                <marker date="1548271977255" expanded="true" signature="79:480" ph="/* This script is used to help save the system. ... */" />
-                <marker date="1548271977255" expanded="true" signature="527:1494" ph="{...}" />
-                <marker date="1548271977255" expanded="true" signature="601:925" ph="/* The reason that a float array is used is because a Vector3 isn't serializable, but a float is. ... */" />
-                <marker date="1548271977255" expanded="true" signature="960:1491" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/Player.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1548272116956" expanded="true" signature="6:78" ph="..." />
-                <marker date="1548272116956" expanded="true" signature="115:881" ph="{...}" />
-                <marker date="1548272116956" expanded="true" signature="268:369" ph="/* These functions will be used for the button events. ... */" />
-                <marker date="1548272116956" expanded="true" signature="396:437" ph="{...}" />
-                <marker date="1548272116956" expanded="true" signature="443:566" ph="/* This will load the data from the file to the player as a data type. ... */" />
-                <marker date="1548272116956" expanded="true" signature="593:875" ph="{...}" />
+                <marker date="1549486486027" expanded="false" signature="6:113" ph="..." />
+                <marker date="1549486486027" expanded="true" signature="114:288" ph="/* The SceneManagement helps you access other scenes in the project. ... */" />
+                <marker date="1549486486027" expanded="true" signature="329:2572" ph="{...}" />
+                <marker date="1549486486027" expanded="true" signature="534:929" ph="{...}" />
+                <marker date="1549486486027" expanded="true" signature="618:925" ph="{...}" />
+                <marker date="1549486486027" expanded="true" signature="748:782" ph="{...}" />
+                <marker date="1549486486027" expanded="true" signature="886:919" ph="{...}" />
+                <marker date="1549486486027" expanded="true" signature="1006:1241" ph="{...}" />
+                <marker date="1549486486027" expanded="true" signature="1317:1634" ph="{...}" />
+                <marker date="1549486486027" expanded="true" signature="1458:1581" ph="/* This next part will freeze time in the game so nothing will happen. ... */" />
+                <marker date="1549486486027" expanded="true" signature="1639:1794" ph="/* This Load Menu function was made so the game can go back to the main menu if selected. You can implement this  ... */" />
+                <marker date="1549486486027" expanded="true" signature="1820:2444" ph="{...}" />
+                <marker date="1549486486027" expanded="true" signature="1887:2081" ph="/* This should be put in once the main menu is in place, because it will resume time in the rest of the game. ... */" />
+                <marker date="1549486486027" expanded="true" signature="2166:2441" ph="/* The tutorial suggests you don't hard code this, but instead create a variable for it. ... */" />
+                <marker date="1549486486027" expanded="true" signature="2503:2568" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -195,8 +134,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/TriggerText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/SettingsMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/ChangeSkyboxColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/TextArea.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -208,6 +149,7 @@
         <option value="$PROJECT_DIR$/Assets/Script/SaveSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/TextArea.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/TextManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/SettingsMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PauseMenu.cs" />
       </list>
     </option>
@@ -218,11 +160,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="130" />
-    <option name="width" value="1440" />
-    <option name="height" value="780" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="854" />
+    <option name="width" value="1074" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -230,11 +171,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
     </panes>
@@ -286,11 +227,12 @@
       <workItem from="1547502542955" duration="714000" />
       <workItem from="1548272071236" duration="10240000" />
       <workItem from="1548703781073" duration="1621000" />
+      <workItem from="1549481344613" duration="3344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12614000" />
+    <option name="totallyTimeSpent" value="15958000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -302,9 +244,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="854" y="0" width="1074" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.108208954" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20216963" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -356,32 +298,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/TextArea.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <marker date="1548281149604" expanded="true" signature="6:78" ph="..." />
-            <marker date="1548281149604" expanded="true" signature="102:409" ph="/* This lets you embed a class with sub properties in the inspector. ... */" />
-            <marker date="1548281149604" expanded="true" signature="433:758" ph="{...}" />
-            <marker date="1548281149604" expanded="true" signature="516:656" ph="/* Defines how big the text area can be for the dialogue. ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/TriggerText.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="17" column="70" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
-          <folding>
-            <marker date="1548274390200" expanded="false" signature="6:78" ph="..." />
-            <marker date="1548274390200" expanded="true" signature="192:797" ph="{...}" />
-            <marker date="1548274390200" expanded="true" signature="411:795" ph="{...}" />
-            <marker date="1548274390200" expanded="true" signature="420:662" ph="/* I know there is a better method to use other than FindObjectOfType... Maybe ask Romrell ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/SaveSystem.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -428,9 +344,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/TextArea.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <marker date="1548281149604" expanded="false" signature="6:78" ph="..." />
+            <marker date="1548281149604" expanded="true" signature="102:409" ph="/* This lets you embed a class with sub properties in the inspector. ... */" />
+            <marker date="1548281149604" expanded="true" signature="433:758" ph="{...}" />
+            <marker date="1548281149604" expanded="true" signature="516:656" ph="/* Defines how big the text area can be for the dialogue. ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/TextManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="312">
           <caret line="98" column="24" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
           <folding>
             <marker date="1548283181787" expanded="false" signature="6:100" ph="..." />
@@ -455,25 +384,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/TriggerText.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="70" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
+          <folding>
+            <marker date="1548274390200" expanded="false" signature="6:78" ph="..." />
+            <marker date="1548274390200" expanded="true" signature="192:797" ph="{...}" />
+            <marker date="1548274390200" expanded="true" signature="411:795" ph="{...}" />
+            <marker date="1548274390200" expanded="true" signature="420:662" ph="/* I know there is a better method to use other than FindObjectOfType... Maybe ask Romrell ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/SettingsMenu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="112" column="32" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
+          <folding>
+            <marker date="1549486250586" expanded="true" signature="6:172" ph="..." />
+            <marker date="1549486250586" expanded="true" signature="174:451" ph="/* This is based on the Tutorial you watched from Brackeys, where he made an Option/Settings Menu ... */" />
+            <marker date="1549486250586" expanded="true" signature="494:5262" ph="{...}" />
+            <marker date="1549486250586" expanded="true" signature="703:2425" ph="{...}" />
+            <marker date="1549486250586" expanded="true" signature="712:872" ph="/* In this method, gather information about what resolutions can be used at our disposal. ... */" />
+            <marker date="1549486250586" expanded="true" signature="1056:1180" ph="/* You'll need to turn the resolutions array into formatted strings ... */" />
+            <marker date="1549486250586" expanded="true" signature="1376:2179" ph="{...}" />
+            <marker date="1549486250586" expanded="true" signature="1389:1525" ph="/* Width x Height ... */" />
+            <marker date="1549486250586" expanded="true" signature="1705:2031" ph="/* if the current resolution is the same one as the resolution the user is using, then set it. ... */" />
+            <marker date="1549486250586" expanded="true" signature="2121:2173" ph="{...}" />
+            <marker date="1549486250586" expanded="true" signature="2429:2642" ph="/* Creating a method to affect the volume. The value that is taken in is based on the value of the slider ... */" />
+            <marker date="1549486250586" expanded="true" signature="2680:3484" ph="{...}" />
+            <marker date="1549486250586" expanded="true" signature="2689:3128" ph="/* Displaying the current variable of the volume ... */" />
+            <marker date="1549486250586" expanded="true" signature="3177:3480" ph="/* THIS IS REFERENCING THE 'volume' IN THE ACTUAL AUDIOMIXER. ... */" />
+            <marker date="1549486250586" expanded="true" signature="3490:3778" ph="/* The Next part relates to the quality of the game. ... */" />
+            <marker date="1549486250586" expanded="true" signature="3821:4120" ph="{...}" />
+            <marker date="1549486250586" expanded="true" signature="3830:4065" ph="/* Access the QualitySettings. The qualityIndex will take in the values of the drop down menu already. ... */" />
+            <marker date="1549486250586" expanded="true" signature="4126:4227" ph="/* Full Screen toggle ... */" />
+            <marker date="1549486250586" expanded="true" signature="4275:4536" ph="{...}" />
+            <marker date="1549486250586" expanded="true" signature="4542:4876" ph="/* Resolution ... */" />
+            <marker date="1549486250586" expanded="true" signature="4926:5260" ph="{...}" />
+            <marker date="1549486250586" expanded="true" signature="4935:5038" ph="/* Find out what resolution was selected. ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/MainMenu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="73" />
+          <folding>
+            <marker date="1549481111056" expanded="false" signature="6:113" ph="..." />
+            <marker date="1549481111056" expanded="true" signature="115:269" ph="/* lets you manage scenes for your build ... */" />
+            <marker date="1549481111056" expanded="true" signature="309:945" ph="{...}" />
+            <marker date="1549481111056" expanded="true" signature="374:640" ph="{...}" />
+            <marker date="1549481111056" expanded="true" signature="668:831" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/PauseMenu.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+        <state relative-caret-position="585">
+          <caret line="63" column="70" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
           <folding>
-            <marker date="1548705037998" expanded="true" signature="6:113" ph="..." />
-            <marker date="1548705037998" expanded="true" signature="114:288" ph="/* The SceneManagement helps you access other scenes in the project. ... */" />
-            <marker date="1548705037998" expanded="true" signature="329:2537" ph="{...}" />
-            <marker date="1548705037998" expanded="true" signature="534:929" ph="{...}" />
-            <marker date="1548705037998" expanded="true" signature="618:925" ph="{...}" />
-            <marker date="1548705037998" expanded="true" signature="748:782" ph="{...}" />
-            <marker date="1548705037998" expanded="true" signature="886:919" ph="{...}" />
-            <marker date="1548705037998" expanded="true" signature="1006:1241" ph="{...}" />
-            <marker date="1548705037998" expanded="true" signature="1317:1634" ph="{...}" />
-            <marker date="1548705037998" expanded="true" signature="1458:1581" ph="/* This next part will freeze time in the game so nothing will happen. ... */" />
-            <marker date="1548705037998" expanded="true" signature="1639:1794" ph="/* This Load Menu function was made so the game can go back to the main menu if selected. You can implement this  ... */" />
-            <marker date="1548705037998" expanded="true" signature="1820:2409" ph="{...}" />
-            <marker date="1548705037998" expanded="true" signature="1862:2406" ph="/* Time.timeScale = 1f; ... */" />
-            <marker date="1548705037998" expanded="true" signature="2468:2533" ph="{...}" />
+            <marker date="1549486486027" expanded="false" signature="6:113" ph="..." />
+            <marker date="1549486486027" expanded="true" signature="114:288" ph="/* The SceneManagement helps you access other scenes in the project. ... */" />
+            <marker date="1549486486027" expanded="true" signature="329:2572" ph="{...}" />
+            <marker date="1549486486027" expanded="true" signature="534:929" ph="{...}" />
+            <marker date="1549486486027" expanded="true" signature="618:925" ph="{...}" />
+            <marker date="1549486486027" expanded="true" signature="748:782" ph="{...}" />
+            <marker date="1549486486027" expanded="true" signature="886:919" ph="{...}" />
+            <marker date="1549486486027" expanded="true" signature="1006:1241" ph="{...}" />
+            <marker date="1549486486027" expanded="true" signature="1317:1634" ph="{...}" />
+            <marker date="1549486486027" expanded="true" signature="1458:1581" ph="/* This next part will freeze time in the game so nothing will happen. ... */" />
+            <marker date="1549486486027" expanded="true" signature="1639:1794" ph="/* This Load Menu function was made so the game can go back to the main menu if selected. You can implement this  ... */" />
+            <marker date="1549486486027" expanded="true" signature="1820:2444" ph="{...}" />
+            <marker date="1549486486027" expanded="true" signature="1887:2081" ph="/* This should be put in once the main menu is in place, because it will resume time in the rest of the game. ... */" />
+            <marker date="1549486486027" expanded="true" signature="2166:2441" ph="/* The tutorial suggests you don't hard code this, but instead create a variable for it. ... */" />
+            <marker date="1549486486027" expanded="true" signature="2503:2568" ph="{...}" />
           </folding>
         </state>
       </provider>
