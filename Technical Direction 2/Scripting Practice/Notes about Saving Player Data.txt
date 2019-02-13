@@ -1,0 +1,38 @@
+3 kinds of data storage
+- persistent playing storage
+	data will be persistent in the editor
+	we want "build" persistent data
+	we need to creat something that will store the data
+btw use graphic scaler on your UI so it can scale well
+
+player preferences have been serialized
+
+anytime you want to share data, you should use a scriptable object
+serialized means it can be transmitted as a different type of data and stored
+(Actual script will be on his twitch vod)
+
+He's been sayihng stuff like "JaSan"??? it sounds like jason
+OH IT"S ON HIS GIT REPO
+
+Artician dreams tools??? IDK you'll have look for it. 
+
+He makes 3 public UnityEvent 
+formatted like 
+public UnityEvent AwakeEvent, StartEvent, QuitEvent;
+
+in the functions, it's like 
+AwakeEvent.Evoke();
+adding the script to the canvas makes the events available where you can call other events in other scriptable objects
+
+He goes over a system that could be good for checkpoints
+he uses... vector 3 objects i think?
+He has a system where you can save a vector3 location
+then he can have an event where when the object is dragged (by putting the current location in the event field), it saves the location
+
+He uses a storage object where the current location will be stored.
+the data storage object will be used to pull data to figure out where the location should be
+	trying to get the same location where the ring originally was
+
+unity has a cloud storage system apparently
+
+serialized data is protected and encrypted so it can be edited from outside
