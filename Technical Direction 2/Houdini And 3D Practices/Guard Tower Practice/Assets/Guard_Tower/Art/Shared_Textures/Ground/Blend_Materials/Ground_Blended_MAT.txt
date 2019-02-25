@@ -1,0 +1,4 @@
+hey yo you can't work in unity with this version of houdini so this is a placeholder. 
+
+If you managed to find me, it's because you saw the string in the Part 3 vid of the Guard Tower
+Long story short, it's suppose to grab a material.
