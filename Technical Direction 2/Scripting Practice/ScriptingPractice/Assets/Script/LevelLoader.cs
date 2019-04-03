@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 //To access the UI features in Unity, add the following
 using UnityEngine.UI;
 
-public class LevelLoarder : MonoBehaviour {
+public class LevelLoader : MonoBehaviour {
 
   //This will reference the UI canvas of the loading screen
   public GameObject loadingScreen;
@@ -53,7 +53,7 @@ public class LevelLoarder : MonoBehaviour {
   
   IEnumerator LoadAsynchronously (int sceneIndex)
   {
-    AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex)
+    AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
     //LoadSceneAsync will load the scene asyncroniously (however that's spelled),
     // so the current scene and the behaviors in it are running while the next scene is being loaded. 
     //This returns an object of the operation, called AsyncOperation, and you can use it to access properties that are storing info
@@ -61,17 +61,17 @@ public class LevelLoarder : MonoBehaviour {
     //The AsyncOperation is like a Coroutine, so to get the information, you need to use a coroutine
     
     //When you start loading the scene, you can set the loading scene to active
-    loadingScreen. SetActive(true);
+    loadingScreen.SetActive(true);
     
     while (operation.isDone == false)
     {
     
-      float.progress = Mathf.Clamp01(operation.progress / .9f);
+      float progress = Mathf.Clamp01(operation.progress / .9f);
       //Clamp is an operation between 0 and 1. The variable of the operation.progress will be divided by .9 (the final value previously)
       // and convert into a value so that .9 will display as 1, making more sense. 
-      /*
+
       Debug.Log(progress);
-      */
+
       
       slider.value = progress; //The value we get from the math we did above will change the value of the slider
       progressText.text = progress * 100f + "%";  //The text in the UI will change to this function.

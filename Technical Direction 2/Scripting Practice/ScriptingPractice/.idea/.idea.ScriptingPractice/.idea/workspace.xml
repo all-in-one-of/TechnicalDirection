@@ -12,21 +12,21 @@
     <session id="735707617">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1261" />
+          <entry key="cs" value="1265" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1261" />
+          <entry key="C#" value="1265" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -46,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/SettingsMenu.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
+            <state>
               <caret line="112" column="32" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
               <folding>
                 <marker date="1549486250586" expanded="true" signature="6:172" ph="..." />
@@ -79,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/MainMenu.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state>
               <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="73" />
               <folding>
                 <marker date="1549481111056" expanded="false" signature="6:113" ph="..." />
@@ -92,10 +92,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/PauseMenu.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
+            <state relative-caret-position="900">
               <caret line="63" column="70" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
               <folding>
                 <marker date="1549486486027" expanded="false" signature="6:113" ph="..." />
@@ -118,6 +118,27 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/LevelLoader.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
+              <folding>
+                <marker date="1554321905987" expanded="false" signature="98:330" ph="..." />
+                <marker date="1554321905987" expanded="true" signature="373:3926" ph="{...}" />
+                <marker date="1554321905987" expanded="true" signature="729:2422" ph="{...}" />
+                <marker date="1554321905987" expanded="true" signature="743:1183" ph="/* LoadSceneAsync will load the scene asyncroniously (however that's spelled), ... */" />
+                <marker date="1554321905987" expanded="true" signature="1250:1956" ph="/* Unity loads things differently. In the tutorial, we saw that the progress went from 0 to 0.9 and was finished  ... */" />
+                <marker date="1554321905987" expanded="true" signature="2036:2418" ph="/* The default value in a slider goes from 0 to 1, and because of the mathh we did, this matches the values we wi ... */" />
+                <marker date="1554321905987" expanded="true" signature="2475:3924" ph="{...}" />
+                <marker date="1554321905987" expanded="true" signature="2556:3081" ph="/* LoadSceneAsync will load the scene asyncroniously (however that's spelled), ... */" />
+                <marker date="1554321905987" expanded="true" signature="3159:3915" ph="{...}" />
+                <marker date="1554321905987" expanded="true" signature="3241:3455" ph="/* Clamp is an operation between 0 and 1. The variable of the operation.progress will be divided by .9 (the final ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -135,6 +156,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/SettingsMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/LevelLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/ChangeSkyboxColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/TextArea.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
@@ -151,6 +173,7 @@
         <option value="$PROJECT_DIR$/Assets/Script/TextManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/SettingsMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PauseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/LevelLoader.cs" />
       </list>
     </option>
   </component>
@@ -171,13 +194,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,11 +251,12 @@
       <workItem from="1548272071236" duration="10240000" />
       <workItem from="1548703781073" duration="1621000" />
       <workItem from="1549481344613" duration="3344000" />
+      <workItem from="1554320921652" duration="1580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15958000" />
+    <option name="totallyTimeSpent" value="17538000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -246,7 +270,7 @@
   <component name="ToolWindowManager">
     <frame x="854" y="0" width="1074" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20216963" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2061144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -302,17 +326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          <folding>
-            <marker date="1548278665766" expanded="true" signature="6:181" ph="..." />
-            <marker date="1548278665766" expanded="true" signature="184:439" ph="/* This will let you access the Binary Formatter to make a binary save file ... */" />
-            <marker date="1548278665766" expanded="true" signature="471:2490" ph="{...}" />
-            <marker date="1548278665766" expanded="true" signature="520:1437" ph="{...}" />
-            <marker date="1548278665766" expanded="true" signature="1007:1181" ph="/* FileMode. will help determine if you want to open a file, create a file, or append to an already existing file ... */" />
-            <marker date="1548278665766" expanded="true" signature="1508:2485" ph="{...}" />
-            <marker date="1548278665766" expanded="true" signature="1610:2333" ph="{...}" />
-            <marker date="1548278665766" expanded="true" signature="1815:2166" ph="/* FileMode.Open should open the file ... */" />
-            <marker date="1548278665766" expanded="true" signature="2338:2481" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -320,40 +333,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <marker date="1548271977255" expanded="true" signature="6:78" ph="..." />
-            <marker date="1548271977255" expanded="true" signature="79:480" ph="/* This script is used to help save the system. ... */" />
-            <marker date="1548271977255" expanded="true" signature="527:1494" ph="{...}" />
-            <marker date="1548271977255" expanded="true" signature="601:925" ph="/* The reason that a float array is used is because a Vector3 isn't serializable, but a float is. ... */" />
-            <marker date="1548271977255" expanded="true" signature="960:1491" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1548272116956" expanded="true" signature="6:78" ph="..." />
-            <marker date="1548272116956" expanded="true" signature="115:881" ph="{...}" />
-            <marker date="1548272116956" expanded="true" signature="268:369" ph="/* These functions will be used for the button events. ... */" />
-            <marker date="1548272116956" expanded="true" signature="396:437" ph="{...}" />
-            <marker date="1548272116956" expanded="true" signature="443:566" ph="/* This will load the data from the file to the player as a data type. ... */" />
-            <marker date="1548272116956" expanded="true" signature="593:875" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/TextArea.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <marker date="1548281149604" expanded="false" signature="6:78" ph="..." />
-            <marker date="1548281149604" expanded="true" signature="102:409" ph="/* This lets you embed a class with sub properties in the inspector. ... */" />
-            <marker date="1548281149604" expanded="true" signature="433:758" ph="{...}" />
-            <marker date="1548281149604" expanded="true" signature="516:656" ph="/* Defines how big the text area can be for the dialogue. ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -361,26 +350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="98" column="24" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
-          <folding>
-            <marker date="1548283181787" expanded="false" signature="6:100" ph="..." />
-            <marker date="1548283181787" expanded="true" signature="143:4171" ph="{...}" />
-            <marker date="1548283181787" expanded="true" signature="256:651" ph="/* 'Queue' will need 'using System.Collections;' to work properly ... */" />
-            <marker date="1548283181787" expanded="true" signature="876:921" ph="{...}" />
-            <marker date="1548283181787" expanded="true" signature="1080:1865" ph="{...}" />
-            <marker date="1548283181787" expanded="true" signature="1131:1252" ph="/* Test this at the school to be sure everything works properly. ... */" />
-            <marker date="1548283181787" expanded="true" signature="1665:1774" ph="{...}" />
-            <marker date="1548283181787" expanded="true" signature="1997:3387" ph="{...}" />
-            <marker date="1548283181787" expanded="true" signature="2011:2152" ph="/* First, check if there are more sentences in the queue ... */" />
-            <marker date="1548283181787" expanded="true" signature="2182:2309" ph="{...}" />
-            <marker date="1548283181787" expanded="true" signature="2389:2737" ph="/* StopAllCoroutines(); ... */" />
-            <marker date="1548283181787" expanded="true" signature="2765:3195" ph="{...}" />
-            <marker date="1548283181787" expanded="true" signature="2778:2912" ph="/* If there are still sentences left, this will get the next sentence in the Queue ... */" />
-            <marker date="1548283181787" expanded="true" signature="3222:3372" ph="{...}" />
-            <marker date="1548283181787" expanded="true" signature="3435:4006" ph="{...}" />
-            <marker date="1548283181787" expanded="true" signature="3667:3978" ph="{...}" />
-            <marker date="1548283181787" expanded="true" signature="3870:3940" ph="/* Change text speed by: ... */" />
-            <marker date="1548283181787" expanded="true" signature="4084:4169" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -388,18 +357,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="17" column="70" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
-          <folding>
-            <marker date="1548274390200" expanded="false" signature="6:78" ph="..." />
-            <marker date="1548274390200" expanded="true" signature="192:797" ph="{...}" />
-            <marker date="1548274390200" expanded="true" signature="411:795" ph="{...}" />
-            <marker date="1548274390200" expanded="true" signature="420:662" ph="/* I know there is a better method to use other than FindObjectOfType... Maybe ask Romrell ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/SettingsMenu.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
+        <state>
           <caret line="112" column="32" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
           <folding>
             <marker date="1549486250586" expanded="true" signature="6:172" ph="..." />
@@ -430,7 +393,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/MainMenu.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state>
           <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="73" />
           <folding>
             <marker date="1549481111056" expanded="false" signature="6:113" ph="..." />
@@ -444,7 +407,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/PauseMenu.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
+        <state relative-caret-position="900">
           <caret line="63" column="70" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
           <folding>
             <marker date="1549486486027" expanded="false" signature="6:113" ph="..." />
@@ -462,6 +425,25 @@
             <marker date="1549486486027" expanded="true" signature="1887:2081" ph="/* This should be put in once the main menu is in place, because it will resume time in the rest of the game. ... */" />
             <marker date="1549486486027" expanded="true" signature="2166:2441" ph="/* The tutorial suggests you don't hard code this, but instead create a variable for it. ... */" />
             <marker date="1549486486027" expanded="true" signature="2503:2568" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/LevelLoader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <marker date="1554321905987" expanded="false" signature="98:330" ph="..." />
+            <marker date="1554321905987" expanded="true" signature="373:3926" ph="{...}" />
+            <marker date="1554321905987" expanded="true" signature="729:2422" ph="{...}" />
+            <marker date="1554321905987" expanded="true" signature="743:1183" ph="/* LoadSceneAsync will load the scene asyncroniously (however that's spelled), ... */" />
+            <marker date="1554321905987" expanded="true" signature="1250:1956" ph="/* Unity loads things differently. In the tutorial, we saw that the progress went from 0 to 0.9 and was finished  ... */" />
+            <marker date="1554321905987" expanded="true" signature="2036:2418" ph="/* The default value in a slider goes from 0 to 1, and because of the mathh we did, this matches the values we wi ... */" />
+            <marker date="1554321905987" expanded="true" signature="2475:3924" ph="{...}" />
+            <marker date="1554321905987" expanded="true" signature="2556:3081" ph="/* LoadSceneAsync will load the scene asyncroniously (however that's spelled), ... */" />
+            <marker date="1554321905987" expanded="true" signature="3159:3915" ph="{...}" />
+            <marker date="1554321905987" expanded="true" signature="3241:3455" ph="/* Clamp is an operation between 0 and 1. The variable of the operation.progress will be divided by .9 (the final ... */" />
           </folding>
         </state>
       </provider>
