@@ -13,7 +13,7 @@ public class QuestGiver : MonoBehaviour
   
   //It could be good to make sure the Quest Giver can actually reference the player so it has someome to give the quest to.
   
-  public Player player; //Referencing the player script that was previously made.
+  public PlayerQuestTut player; //Referencing the player script that was previously made.
   //In unity, drag the Player object into the right field. ... I legit forget how it's described. 
   
   //Once the 'Quest.cs' script is serializable, you can go into Unity and input the quest information into the fields that show up
