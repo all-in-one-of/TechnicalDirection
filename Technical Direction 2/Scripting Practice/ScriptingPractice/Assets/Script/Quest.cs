@@ -1,4 +1,4 @@
-// This script was made by following a "QUESTING SYTEM" tutorial by Brackeys
+// This script was made by following a "QUESTING SYSTEM" tutorial by Brackeys
 // This is the first script he made. 
 
 // To start out, he had a Canvas with a player window that displayed information about the player.

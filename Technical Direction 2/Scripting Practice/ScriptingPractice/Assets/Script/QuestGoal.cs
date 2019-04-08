@@ -13,7 +13,7 @@ public class QuestGoal
   //He mentioned another way to do this is by inheritence, which he left a link to another series about it in the video.
   //This could be worth checking out and breaking it down to understand the process better. 
   
-  //After creating the enum fuction differentiating between the types of quests
+  //After creating the enum function differentiating between the types of quests
   public GoalType goalType;
   
   //These next variables are a way of measuring how the quest is going
@@ -25,6 +25,12 @@ public class QuestGoal
   {
     return (currentAmount >= requiredAmount);
     //If the currentAmount equals to or exceeds the required amount, then the function will return true. If not, it's false. 
+  }
+  
+  //ADDED LATER: reset the "currentAmount" counter
+  public void ResetAmount()
+  {
+    currentAmount = 0;
   }
   
    //HELLO WE'RE WORKING ON MAKING SURE THE PLAYER CAN COMPLETE A GOAL BY ADDING THE RIGHT VARIABLES TO THE REQUIRED AMOUNT

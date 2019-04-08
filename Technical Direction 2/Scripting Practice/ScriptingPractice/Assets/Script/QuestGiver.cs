@@ -22,7 +22,11 @@ public class QuestGiver : MonoBehaviour
   public GameObject questWindow;
   public Text titleText;
   public Text descriptionText;
+  public Text experienceText;
   public Text goldText;
+  
+  //ADDED LATER: I'm putting in a text box that will be displayed when a quest has been accepted.
+  public GameObject isActiveText;
   
   public void OpenQuestWindow()
   {
@@ -44,6 +48,7 @@ public class QuestGiver : MonoBehaviour
   public void AcceptQuest()
   {
     questWindow.SetActive(false);
+    
     quest.isActive = true;
     //You wwant to be able to give the quest to the player. 
     //Go back to the Player script and let it access the "Quest" script
@@ -51,6 +56,9 @@ public class QuestGiver : MonoBehaviour
     /*  In the tutorial, Brackeys states that the method shown in the tutorial will only have one quest active at a time.
     if you want multiple quests... in the Player script, you need to make the 'quest' a list instead so you can add quests at runtime.
     */
+    
+    //ADDED LATER: making a display so the quest will show up in the player menu
+    isActiveText.SetActive(true);
     
     //On the AcceptButton in the UI, do an onClick event that will access this function.
     //When the button is pressed, the quest will transfer to the player. If you check the gameObject Player you'll see the quest info.
