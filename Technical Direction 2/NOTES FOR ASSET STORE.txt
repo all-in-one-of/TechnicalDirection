@@ -1,0 +1,12 @@
+What's Needed:
+Icon Image	 128 x 128
+Small Image	 200 x 124 or 200 x 258
+Large Image	 516 x 389 or 860 x 389
+
+Social Media Images	Facebook: 1200 x 630
+
+You can add video/audio through URL
+	- Services
+		YouTube, Vimeo, Souncloud, MixCloud, Sketchfab
+
+Screenshots can be added.
