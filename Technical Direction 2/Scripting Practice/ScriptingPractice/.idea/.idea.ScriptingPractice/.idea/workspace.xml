@@ -12,138 +12,38 @@
     <session id="735707617">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="3604" />
+          <entry key="cs" value="3688" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="3604" />
+          <entry key="C#" value="3688" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="15" />
+          <entry key="cs" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="15" />
+          <entry key="C#" value="20" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/PlayerQuestTut.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-              <folding>
-                <marker date="1554755285655" expanded="true" signature="0:132" ph="/* This script was made by following a &quot;QUESTING SYTEM&quot; tutorial by Brackeys ... */" />
-                <marker date="1554755285655" expanded="true" signature="139:211" ph="..." />
-                <marker date="1554755285655" expanded="true" signature="257:1448" ph="{...}" />
-                <marker date="1554755285655" expanded="true" signature="454:613" ph="/* Go back to the QuestGiver script and look at AcceptQuest() ... */" />
-                <marker date="1554755285655" expanded="true" signature="762:1445" ph="{...}" />
-                <marker date="1554755285655" expanded="true" signature="878:1441" ph="{...}" />
-                <marker date="1554755285655" expanded="true" signature="1012:1435" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/DisplayPlayer.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="37" column="95" selection-start-line="37" selection-start-column="95" selection-end-line="37" selection-end-column="95" />
-              <folding>
-                <marker date="1554754456089" expanded="false" signature="6:123" ph="..." />
-                <marker date="1554754456089" expanded="true" signature="125:453" ph="/* This script was made for figuring out how to make a QUESTING SYSTEM. ... */" />
-                <marker date="1554754456089" expanded="true" signature="497:1591" ph="{...}" />
-                <marker date="1554754456089" expanded="true" signature="604:724" ph="/* We're probably going to want to reference the player script, so we can get ... */" />
-                <marker date="1554754456089" expanded="true" signature="924:1030" ph="/* When the game starts, this script will grab the data from the player and ... */" />
-                <marker date="1554754456089" expanded="true" signature="1055:1224" ph="{...}" />
-                <marker date="1554754456089" expanded="true" signature="1234:1397" ph="/* When a fight occurs by pressing the button, the text will change. ... */" />
-                <marker date="1554754456089" expanded="true" signature="1429:1589" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/Quest.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-              <folding>
-                <marker date="1554754809022" expanded="true" signature="0:844" ph="/* This script was made by following a &quot;QUESTING SYSTEM&quot; tutorial by Brackeys ... */" />
-                <marker date="1554754809022" expanded="false" signature="851:923" ph="..." />
-                <marker date="1554754809022" expanded="true" signature="925:1061" ph="/* This is an instance where you don't want to use MonoBehaviour ... */" />
-                <marker date="1554754809022" expanded="true" signature="1102:2327" ph="{...}" />
-                <marker date="1554754809022" expanded="true" signature="1398:1678" ph="/* Now you'll need a way for the player to get the quest. ... */" />
-                <marker date="1554754809022" expanded="true" signature="1709:2136" ph="/* Now in Unity there should be more fields on the Quest Giver Script ... */" />
-                <marker date="1554754809022" expanded="true" signature="2161:2325" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/QuestGoal.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-              <folding>
-                <marker date="1554755232961" expanded="true" signature="0:113" ph="/* This script was made by following a &quot;QUESTING SYTEM&quot; tutorial by Brackeys ... */" />
-                <marker date="1554755232961" expanded="false" signature="120:192" ph="..." />
-                <marker date="1554755232961" expanded="true" signature="238:2096" ph="{...}" />
-                <marker date="1554755232961" expanded="true" signature="243:792" ph="/* Quests could have different types of goals. ... */" />
-                <marker date="1554755232961" expanded="true" signature="1042:1222" ph="{...}" />
-                <marker date="1554755232961" expanded="true" signature="1304:1335" ph="{...}" />
-                <marker date="1554755232961" expanded="true" signature="1342:1507" ph="/* HELLO WE'RE WORKING ON MAKING SURE THE PLAYER CAN COMPLETE A GOAL BY ADDING THE RIGHT VARIABLES TO THE REQUIRE ... */" />
-                <marker date="1554755232961" expanded="true" signature="1535:1774" ph="{...}" />
-                <marker date="1554755232961" expanded="true" signature="1630:1665" ph="{...}" />
-                <marker date="1554755232961" expanded="true" signature="1866:2094" ph="{...}" />
-                <marker date="1554755232961" expanded="true" signature="1972:2007" ph="{...}" />
-                <marker date="1554755232961" expanded="true" signature="2098:2234" ph="/* Defining Different types of Quests ... */" />
-                <marker date="1554755232961" expanded="true" signature="2255:2399" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/QuestGiver.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
-              <folding>
-                <marker date="1554754655721" expanded="true" signature="0:114" ph="/* This script was made by following a &quot;QUESTING SYTEM&quot; tutorial by Brackeys ... */" />
-                <marker date="1554754655721" expanded="true" signature="122:216" ph="..." />
-                <marker date="1554754655721" expanded="true" signature="258:3171" ph="{...}" />
-                <marker date="1554754655721" expanded="true" signature="595:959" ph="/* In unity, drag the Player object into the right field. ... I legit forget how it's described. ... */" />
-                <marker date="1554754655721" expanded="true" signature="1272:2032" ph="{...}" />
-                <marker date="1554754655721" expanded="true" signature="1584:2023" ph="/* In Unity, you drag in the right values from the Quest UI into thee fields that appear on the Quest Giver Empty ... */" />
-                <marker date="1554754655721" expanded="true" signature="2111:3166" ph="{...}" />
-                <marker date="1554754655721" expanded="true" signature="2186:2314" ph="/* You wwant to be able to give the quest to the player. ... */" />
-                <marker date="1554754655721" expanded="true" signature="2398:2657" ph="/* In the tutorial, Brackeys states that the method shown in the tutorial will only have one quest active at a ti ... */" />
-                <marker date="1554754655721" expanded="true" signature="2787:3162" ph="/* On the AcceptButton in the UI, do an onClick event that will access this function. ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -165,6 +65,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/Quest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/SettingsMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/ChangeSkyboxColor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/QuestFromInheritance/KillGoal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/QuestFromInheritance/Goal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/QuestFromInheritance/NewQuest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/DisplayPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/LevelLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/TextArea.cs" root0="FORCE_HIGHLIGHTING" />
@@ -189,6 +92,9 @@
         <option value="$PROJECT_DIR$/Assets/Script/Quest.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/QuestGoal.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlayerQuestTut.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/QuestFromInheritance/Goal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/QuestFromInheritance/KillGoal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/QuestFromInheritance/NewQuest.cs" />
       </list>
     </option>
   </component>
@@ -198,8 +104,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="854" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="317" />
+    <option name="y" value="151" />
     <option name="width" value="1074" />
     <option name="height" value="1047" />
   </component>
@@ -269,11 +176,14 @@
       <workItem from="1549481344613" duration="3344000" />
       <workItem from="1554320921652" duration="1580000" />
       <workItem from="1554748294693" duration="4799000" />
+      <workItem from="1556130873796" duration="7000" />
+      <workItem from="1556130884406" duration="8000" />
+      <workItem from="1556130913191" duration="343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22337000" />
+    <option name="totallyTimeSpent" value="22695000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -285,9 +195,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="854" y="0" width="1074" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21005917" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.119936034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -378,30 +288,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="739">
           <caret line="112" column="32" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
-          <folding>
-            <marker date="1549486250586" expanded="false" signature="6:172" ph="..." />
-            <marker date="1549486250586" expanded="true" signature="174:451" ph="/* This is based on the Tutorial you watched from Brackeys, where he made an Option/Settings Menu ... */" />
-            <marker date="1549486250586" expanded="true" signature="494:5262" ph="{...}" />
-            <marker date="1549486250586" expanded="true" signature="703:2425" ph="{...}" />
-            <marker date="1549486250586" expanded="true" signature="712:872" ph="/* In this method, gather information about what resolutions can be used at our disposal. ... */" />
-            <marker date="1549486250586" expanded="true" signature="1056:1180" ph="/* You'll need to turn the resolutions array into formatted strings ... */" />
-            <marker date="1549486250586" expanded="true" signature="1376:2179" ph="{...}" />
-            <marker date="1549486250586" expanded="true" signature="1389:1525" ph="/* Width x Height ... */" />
-            <marker date="1549486250586" expanded="true" signature="1705:2031" ph="/* if the current resolution is the same one as the resolution the user is using, then set it. ... */" />
-            <marker date="1549486250586" expanded="true" signature="2121:2173" ph="{...}" />
-            <marker date="1549486250586" expanded="true" signature="2429:2642" ph="/* Creating a method to affect the volume. The value that is taken in is based on the value of the slider ... */" />
-            <marker date="1549486250586" expanded="true" signature="2680:3484" ph="{...}" />
-            <marker date="1549486250586" expanded="true" signature="2689:3128" ph="/* Displaying the current variable of the volume ... */" />
-            <marker date="1549486250586" expanded="true" signature="3177:3480" ph="/* THIS IS REFERENCING THE 'volume' IN THE ACTUAL AUDIOMIXER. ... */" />
-            <marker date="1549486250586" expanded="true" signature="3490:3778" ph="/* The Next part relates to the quality of the game. ... */" />
-            <marker date="1549486250586" expanded="true" signature="3821:4120" ph="{...}" />
-            <marker date="1549486250586" expanded="true" signature="3830:4065" ph="/* Access the QualitySettings. The qualityIndex will take in the values of the drop down menu already. ... */" />
-            <marker date="1549486250586" expanded="true" signature="4126:4227" ph="/* Full Screen toggle ... */" />
-            <marker date="1549486250586" expanded="true" signature="4275:4536" ph="{...}" />
-            <marker date="1549486250586" expanded="true" signature="4542:4876" ph="/* Resolution ... */" />
-            <marker date="1549486250586" expanded="true" signature="4926:5260" ph="{...}" />
-            <marker date="1549486250586" expanded="true" signature="4935:5038" ph="/* Find out what resolution was selected. ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -409,13 +295,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="73" />
-          <folding>
-            <marker date="1549481111056" expanded="false" signature="6:113" ph="..." />
-            <marker date="1549481111056" expanded="true" signature="115:269" ph="/* lets you manage scenes for your build ... */" />
-            <marker date="1549481111056" expanded="true" signature="309:945" ph="{...}" />
-            <marker date="1549481111056" expanded="true" signature="374:640" ph="{...}" />
-            <marker date="1549481111056" expanded="true" signature="668:831" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -423,23 +302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
           <caret line="63" column="70" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
-          <folding>
-            <marker date="1549486486027" expanded="false" signature="6:113" ph="..." />
-            <marker date="1549486486027" expanded="true" signature="114:288" ph="/* The SceneManagement helps you access other scenes in the project. ... */" />
-            <marker date="1549486486027" expanded="true" signature="329:2572" ph="{...}" />
-            <marker date="1549486486027" expanded="true" signature="534:929" ph="{...}" />
-            <marker date="1549486486027" expanded="true" signature="618:925" ph="{...}" />
-            <marker date="1549486486027" expanded="true" signature="748:782" ph="{...}" />
-            <marker date="1549486486027" expanded="true" signature="886:919" ph="{...}" />
-            <marker date="1549486486027" expanded="true" signature="1006:1241" ph="{...}" />
-            <marker date="1549486486027" expanded="true" signature="1317:1634" ph="{...}" />
-            <marker date="1549486486027" expanded="true" signature="1458:1581" ph="/* This next part will freeze time in the game so nothing will happen. ... */" />
-            <marker date="1549486486027" expanded="true" signature="1639:1794" ph="/* This Load Menu function was made so the game can go back to the main menu if selected. You can implement this  ... */" />
-            <marker date="1549486486027" expanded="true" signature="1820:2444" ph="{...}" />
-            <marker date="1549486486027" expanded="true" signature="1887:2081" ph="/* This should be put in once the main menu is in place, because it will resume time in the rest of the game. ... */" />
-            <marker date="1549486486027" expanded="true" signature="2166:2441" ph="/* The tutorial suggests you don't hard code this, but instead create a variable for it. ... */" />
-            <marker date="1549486486027" expanded="true" signature="2503:2568" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -447,39 +309,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="71" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <marker date="1554321905987" expanded="false" signature="98:330" ph="..." />
-            <marker date="1554321905987" expanded="true" signature="373:3926" ph="{...}" />
-            <marker date="1554321905987" expanded="true" signature="729:2422" ph="{...}" />
-            <marker date="1554321905987" expanded="true" signature="743:1183" ph="/* LoadSceneAsync will load the scene asyncroniously (however that's spelled), ... */" />
-            <marker date="1554321905987" expanded="true" signature="1250:1956" ph="/* Unity loads things differently. In the tutorial, we saw that the progress went from 0 to 0.9 and was finished  ... */" />
-            <marker date="1554321905987" expanded="true" signature="2036:2418" ph="/* The default value in a slider goes from 0 to 1, and because of the mathh we did, this matches the values we wi ... */" />
-            <marker date="1554321905987" expanded="true" signature="2475:3924" ph="{...}" />
-            <marker date="1554321905987" expanded="true" signature="2556:3081" ph="/* LoadSceneAsync will load the scene asyncroniously (however that's spelled), ... */" />
-            <marker date="1554321905987" expanded="true" signature="3159:3915" ph="{...}" />
-            <marker date="1554321905987" expanded="true" signature="3241:3455" ph="/* Clamp is an operation between 0 and 1. The variable of the operation.progress will be divided by .9 (the final ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/Player.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Display Player.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/QuestFromInheritance/Quest.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1548272116956" expanded="false" signature="6:78" ph="..." />
-            <marker date="1548272116956" expanded="true" signature="115:881" ph="{...}" />
-            <marker date="1548272116956" expanded="true" signature="268:369" ph="/* These functions will be used for the button events. ... */" />
-            <marker date="1548272116956" expanded="true" signature="396:437" ph="{...}" />
-            <marker date="1548272116956" expanded="true" signature="443:566" ph="/* This will load the data from the file to the player as a data type. ... */" />
-            <marker date="1548272116956" expanded="true" signature="593:875" ph="{...}" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/Display Player.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Script/PlayerQuestTut.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="240">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding>
+            <marker date="1554755285655" expanded="true" signature="0:132" ph="/* This script was made by following a &quot;QUESTING SYTEM&quot; tutorial by Brackeys ... */" />
+            <marker date="1554755285655" expanded="false" signature="139:211" ph="..." />
+            <marker date="1554755285655" expanded="true" signature="257:1448" ph="{...}" />
+            <marker date="1554755285655" expanded="true" signature="454:613" ph="/* Go back to the QuestGiver script and look at AcceptQuest() ... */" />
+            <marker date="1554755285655" expanded="true" signature="762:1445" ph="{...}" />
+            <marker date="1554755285655" expanded="true" signature="878:1441" ph="{...}" />
+            <marker date="1554755285655" expanded="true" signature="1012:1435" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -500,28 +356,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/QuestGiver.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Quest.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+        <state relative-caret-position="480">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
           <folding>
-            <marker date="1554754655721" expanded="true" signature="0:114" ph="/* This script was made by following a &quot;QUESTING SYTEM&quot; tutorial by Brackeys ... */" />
-            <marker date="1554754655721" expanded="true" signature="122:216" ph="..." />
-            <marker date="1554754655721" expanded="true" signature="258:3171" ph="{...}" />
-            <marker date="1554754655721" expanded="true" signature="595:959" ph="/* In unity, drag the Player object into the right field. ... I legit forget how it's described. ... */" />
-            <marker date="1554754655721" expanded="true" signature="1272:2032" ph="{...}" />
-            <marker date="1554754655721" expanded="true" signature="1584:2023" ph="/* In Unity, you drag in the right values from the Quest UI into thee fields that appear on the Quest Giver Empty ... */" />
-            <marker date="1554754655721" expanded="true" signature="2111:3166" ph="{...}" />
-            <marker date="1554754655721" expanded="true" signature="2186:2314" ph="/* You wwant to be able to give the quest to the player. ... */" />
-            <marker date="1554754655721" expanded="true" signature="2398:2657" ph="/* In the tutorial, Brackeys states that the method shown in the tutorial will only have one quest active at a ti ... */" />
-            <marker date="1554754655721" expanded="true" signature="2787:3162" ph="/* On the AcceptButton in the UI, do an onClick event that will access this function. ... */" />
+            <marker date="1554754809022" expanded="true" signature="0:844" ph="/* This script was made by following a &quot;QUESTING SYSTEM&quot; tutorial by Brackeys ... */" />
+            <marker date="1554754809022" expanded="false" signature="851:923" ph="..." />
+            <marker date="1554754809022" expanded="true" signature="925:1061" ph="/* This is an instance where you don't want to use MonoBehaviour ... */" />
+            <marker date="1554754809022" expanded="true" signature="1102:2327" ph="{...}" />
+            <marker date="1554754809022" expanded="true" signature="1398:1678" ph="/* Now you'll need a way for the player to get the quest. ... */" />
+            <marker date="1554754809022" expanded="true" signature="1709:2136" ph="/* Now in Unity there should be more fields on the Quest Giver Script ... */" />
+            <marker date="1554754809022" expanded="true" signature="2161:2325" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/QuestGoal.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="312">
           <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding>
             <marker date="1554755232961" expanded="true" signature="0:113" ph="/* This script was made by following a &quot;QUESTING SYTEM&quot; tutorial by Brackeys ... */" />
@@ -541,34 +394,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/Quest.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Script/QuestGiver.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        <state relative-caret-position="282">
+          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
           <folding>
-            <marker date="1554754809022" expanded="true" signature="0:844" ph="/* This script was made by following a &quot;QUESTING SYSTEM&quot; tutorial by Brackeys ... */" />
-            <marker date="1554754809022" expanded="false" signature="851:923" ph="..." />
-            <marker date="1554754809022" expanded="true" signature="925:1061" ph="/* This is an instance where you don't want to use MonoBehaviour ... */" />
-            <marker date="1554754809022" expanded="true" signature="1102:2327" ph="{...}" />
-            <marker date="1554754809022" expanded="true" signature="1398:1678" ph="/* Now you'll need a way for the player to get the quest. ... */" />
-            <marker date="1554754809022" expanded="true" signature="1709:2136" ph="/* Now in Unity there should be more fields on the Quest Giver Script ... */" />
-            <marker date="1554754809022" expanded="true" signature="2161:2325" ph="{...}" />
+            <marker date="1554754655721" expanded="true" signature="0:114" ph="/* This script was made by following a &quot;QUESTING SYTEM&quot; tutorial by Brackeys ... */" />
+            <marker date="1554754655721" expanded="false" signature="122:216" ph="..." />
+            <marker date="1554754655721" expanded="true" signature="258:3171" ph="{...}" />
+            <marker date="1554754655721" expanded="true" signature="595:959" ph="/* In unity, drag the Player object into the right field. ... I legit forget how it's described. ... */" />
+            <marker date="1554754655721" expanded="true" signature="1272:2032" ph="{...}" />
+            <marker date="1554754655721" expanded="true" signature="1584:2023" ph="/* In Unity, you drag in the right values from the Quest UI into thee fields that appear on the Quest Giver Empty ... */" />
+            <marker date="1554754655721" expanded="true" signature="2111:3166" ph="{...}" />
+            <marker date="1554754655721" expanded="true" signature="2186:2314" ph="/* You wwant to be able to give the quest to the player. ... */" />
+            <marker date="1554754655721" expanded="true" signature="2398:2657" ph="/* In the tutorial, Brackeys states that the method shown in the tutorial will only have one quest active at a ti ... */" />
+            <marker date="1554754655721" expanded="true" signature="2787:3162" ph="/* On the AcceptButton in the UI, do an onClick event that will access this function. ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/PlayerQuestTut.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Script/QuestFromInheritance/KillGoal.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+        <state relative-caret-position="330">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding>
-            <marker date="1554755285655" expanded="true" signature="0:132" ph="/* This script was made by following a &quot;QUESTING SYTEM&quot; tutorial by Brackeys ... */" />
-            <marker date="1554755285655" expanded="true" signature="139:211" ph="..." />
-            <marker date="1554755285655" expanded="true" signature="257:1448" ph="{...}" />
-            <marker date="1554755285655" expanded="true" signature="454:613" ph="/* Go back to the QuestGiver script and look at AcceptQuest() ... */" />
-            <marker date="1554755285655" expanded="true" signature="762:1445" ph="{...}" />
-            <marker date="1554755285655" expanded="true" signature="878:1441" ph="{...}" />
-            <marker date="1554755285655" expanded="true" signature="1012:1435" ph="{...}" />
+            <marker date="1556131143041" expanded="true" signature="0:130" ph="/* This script was made following a tutorial by GameGrind for Questing. ... */" />
+            <marker date="1556131143041" expanded="false" signature="138:202" ph="..." />
+            <marker date="1556131143041" expanded="true" signature="233:1852" ph="{...}" />
+            <marker date="1556131143041" expanded="true" signature="235:488" ph="/* He suggests making an identifier for the enemies? ... */" />
+            <marker date="1556131143041" expanded="true" signature="526:705" ph="/* We want to make sure that we assign a value that determines the enemy this KillGoal applies for ... */" />
+            <marker date="1556131143041" expanded="true" signature="815:1043" ph="{...}" />
+            <marker date="1556131143041" expanded="true" signature="1166:1520" ph="{...}" />
+            <marker date="1556131143041" expanded="true" signature="1192:1318" ph="/* This is a way to start an event listener so we know when any of the enemies die, ... */" />
+            <marker date="1556131143041" expanded="true" signature="1328:1516" ph="/* OK so for this part he had a previous enemy death script, or just a script for combat. ... */" />
+            <marker date="1556131143041" expanded="true" signature="1554:1850" ph="{...}" />
+            <marker date="1556131143041" expanded="true" signature="1703:1846" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/QuestFromInheritance/Goal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+          <folding>
+            <marker date="1556130990791" expanded="true" signature="0:272" ph="/* This time, we are following a tutorial from GameGrind called &quot;Quest Goal&quot; on YouTube. ... */" />
+            <marker date="1556130990791" expanded="false" signature="279:351" ph="..." />
+            <marker date="1556130990791" expanded="true" signature="371:2407" ph="{...}" />
+            <marker date="1556130990791" expanded="true" signature="373:914" ph="/* No MonoBehaviour because we won't be using anything that is coming from MonoBehaviour ... */" />
+            <marker date="1556130990791" expanded="true" signature="1202:1850" ph="/* What the required amount is for a goal ... */" />
+            <marker date="1556130990791" expanded="true" signature="1879:2035" ph="{...}" />
+            <marker date="1556130990791" expanded="true" signature="1888:2031" ph="/* Basically a default? IDK ... */" />
+            <marker date="1556130990791" expanded="true" signature="2151:2295" ph="{...}" />
+            <marker date="1556130990791" expanded="true" signature="2196:2291" ph="{...}" />
+            <marker date="1556130990791" expanded="true" signature="2323:2405" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/QuestFromInheritance/NewQuest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="63" column="56" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
+          <folding>
+            <marker date="1556131178328" expanded="true" signature="0:176" ph="/* part 3 in the Questing System tutorial by GameGrind ... */" />
+            <marker date="1556131178328" expanded="false" signature="183:274" ph="..." />
+            <marker date="1556131178328" expanded="true" signature="313:2379" ph="{...}" />
+            <marker date="1556131178328" expanded="true" signature="440:757" ph="/* You can initialize the goals with the... Auto implementing property?? ... */" />
+            <marker date="1556131178328" expanded="true" signature="889:986" ph="/* public Item ItemReward { get; set; } ... */" />
+            <marker date="1556131178328" expanded="true" signature="1150:2103" ph="{...}" />
+            <marker date="1556131178328" expanded="true" signature="1159:1371" ph="/* We're gonna be using the Linq Method Namespace? ... */" />
+            <marker date="1556131178328" expanded="true" signature="1381:1650" ph="/* if (Goals.All(g =&gt; g.Completed))//if anything in the Goal's list is not completed, the quest is not completed ... */" />
+            <marker date="1556131178328" expanded="true" signature="1660:1932" ph="/* OK HE MADE IT SIMPLIER??? I do not like tutorials like these where they change everything ... */" />
+            <marker date="1556131178328" expanded="true" signature="2166:2377" ph="{...}" />
+            <marker date="1556131178328" expanded="true" signature="2175:2373" ph="/* if (ItemReward != null) ... */" />
           </folding>
         </state>
       </provider>

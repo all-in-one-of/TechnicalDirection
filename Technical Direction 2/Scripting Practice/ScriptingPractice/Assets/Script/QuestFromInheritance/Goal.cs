@@ -19,13 +19,13 @@ public class Goal {
   public string Description { get; set; }
   //This describes what the goal is. 
   
-  property bool Completed { get; set; }
+  public bool Completed { get; set; }
   //Sees if the Quest was completed
   
-  property int CurrentAmount { get; set;}
+  public int CurrentAmount { get; set;}
   //Tracks the current amount for a goal
   
-  property int RequiredAmount { get; set;}
+  public int RequiredAmount { get; set;}
   //What the required amount is for a goal
   
   //There are a few methods that you should make
@@ -56,7 +56,7 @@ public class Goal {
   
   public void Complete()
   {
-    Completed = true
+    Completed = true;
     //This refers to the completed property we made
   }
 }

@@ -16,13 +16,13 @@ public class KillGoal : Goal {
   //We want to make sure that we assign a value that determines the enemy this KillGoal applies for
   //We want to make sure Kill Goal Inherits from 'Goal' instead of Mono Behaviour
   
-  public KillGoal (int enemyID, string description, bool completed, int currentAmount, intRequiredAmount)
+  public KillGoal (int enemyID, string description, bool completed, int currentAmount, int requiredAmount)
   {
     //As you can see, we are using items that are in the "Goal" script. 
     this.EnemyID = enemyID;
     this.Description = description;
     this.CurrentAmount = currentAmount;
-    thisRequiredAmount = requiredAmount; 
+    this.RequiredAmount = requiredAmount; 
   }
   
   //We're going to make an initilize method that will override the one in the Goal Script

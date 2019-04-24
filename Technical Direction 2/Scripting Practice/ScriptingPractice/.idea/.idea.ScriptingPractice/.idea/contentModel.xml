@@ -19,6 +19,13 @@
           <e p="PlayerData.cs" t="Include" />
           <e p="PlayerQuestTut.cs" t="Include" />
           <e p="Quest.cs" t="Include" />
+          <e p="QuestFromInheritance" t="Include">
+            <e p="Goal.cs" t="Include" />
+            <e p="IEnemy.cs" t="Include" />
+            <e p="KillGoal.cs" t="Include" />
+            <e p="NewQuest.cs" t="Include" />
+            <e p="Slime.cs" t="Include" />
+          </e>
           <e p="QuestGiver.cs" t="Include" />
           <e p="QuestGoal.cs" t="Include" />
           <e p="RotateSkybox.cs" t="Include" />
